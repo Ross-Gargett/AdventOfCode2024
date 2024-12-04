@@ -35,5 +35,5 @@ foreach (var line in input)
     list2.Add(int.Parse(split[1]));
 }
     
-Console.WriteLine(SolvePart1(list1, list2));
-Console.WriteLine(SolvePart2(list1, list2));
+Console.WriteLine($"Part 1: {SolvePart1(list1, list2)}");
+Console.WriteLine($"Part 2: {SolvePart2(list1, list2)}");
